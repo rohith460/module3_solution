@@ -1,8 +1,7 @@
-// app.js
 (function () {
     'use strict';
 
-    angular.module('NarrowItDownApp', [])
+    angular.module('NarrowItDownApp', [])  // Define the module properly
     .controller('NarrowItDownController', NarrowItDownController)
     .service('MenuSearchService', MenuSearchService)
     .directive('foundItems', FoundItemsDirective);
